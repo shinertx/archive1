@@ -1,0 +1,25 @@
+'Log files:
+/home/bljones1888/.npm/_logs/2024-12-11T02_24_16_793Z-debug-0.log
+
+# npm resolution error report
+
+While resolving: flash-loan-bot-441023@1.0.0
+Found: hardhat@undefined
+node_modules/hardhat
+  hardhat@"^3.0.0" from the root project
+
+Could not resolve dependency:
+peer hardhat@"^2.0.0" from @nomiclabs/hardhat-ethers@2.2.3
+node_modules/@nomiclabs/hardhat-ethers
+  peer @nomiclabs/hardhat-ethers@"^2.0.0" from @nomicfoundation/hardhat-toolbox@2.0.2
+  node_modules/@nomicfoundation/hardhat-toolbox
+    @nomicfoundation/hardhat-toolbox@"^2.0.0" from the root project
+  peer @nomiclabs/hardhat-ethers@"^2.0.0" from @nomicfoundation/hardhat-chai-matchers@1.0.6
+  node_modules/@nomicfoundation/hardhat-chai-matchers
+    peer @nomicfoundation/hardhat-chai-matchers@"^1.0.0" from @nomicfoundation/hardhat-toolbox@2.0.2
+    node_modules/@nomicfoundation/hardhat-toolbox
+      @nomicfoundation/hardhat-toolbox@"^2.0.0" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.
